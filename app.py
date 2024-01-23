@@ -32,7 +32,6 @@ def login():
         
         return redirect('http://www.google.com')
         
-    # If the request method is GET, display the login form
     return render_template('login.html', error_message=None)
 
 if __name__ == '__main__':
